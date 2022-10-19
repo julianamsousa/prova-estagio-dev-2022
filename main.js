@@ -1,7 +1,7 @@
 function fazGet(url) {
     let request = new XMLHttpRequest()
     request.open("GET", url, false)
-    request.send(git-user:julianamsousa)
+    request.send("git-user:julianamsousa")
     return request.responseText
 }
 

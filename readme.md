@@ -12,4 +12,4 @@ Tecnologias:
 
 
 Objetivo:
-Simular o pontuação dos times até a final
+Simular a pontuação dos times até a final

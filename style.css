@@ -1,19 +1,37 @@
 body {
     margin: 40px;
   }
+
   h1, h2, p {
     color: black;
     text-align: center;
   }
-  .flex-container {
+
+  .container {
     display: flex;
+    
   }
-  .flex-container, div {
-    background-color: #f1f1f1;
-    width: 100px;
+
+  .column {
+    flex: 11,11%;
+    max-width: 11,11%;
+  }
+
+  div {
+    width: 11,11%;
+    height: 100%;
     margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+    padding: 5px;
+    justify-content: space-around;
   }
+
+  .box{
+    border: 1px solid black;
+  }
+
+ 
+
+  
+
+
  

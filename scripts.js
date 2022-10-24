@@ -13,10 +13,15 @@
         return response.json();
     })
     .then(function(data){
-        console.log(data);
+        console.log(data)
+        mostrarTime(data);
     });
 
+    function consultarTeam(){
+        let grupoA = document.querySelector('#name').textContent;
+    }
 
-
-
-
+    function mostrarTime(dados) {
+        let response = document.json('#name');
+        response.innerHTML = `name: ${dados.name}`
+    }
